@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <h1>Cadastro no Curso de Informática</h1>
+
+    <form action="">
+      <p>
+        <label for="INomeCompleto"> Nome completo:</label>
+        <input type="text" name="Nome Completo" id="INomeCompleto" placeholder="Escreva aqui" REQUIRED />
+      </p>
+      <p>
+        <label for="IIdade">Idade:</label>
+        <input type="number" name="Idade" id="IIdade" placeholder="Escreva aqui" REQUIRED/>
+      </p>
+      <p>
+        <label for="IE-mail">E-mail:</label>
+        <input type="email" name="Email" id="IE-mail" placeholder="Escreva aqui" REQUIRED/>
+      </p>
+      <p>
+        <label for="ISenha">Senha:</label>
+        <input type="password" name="Senha" id="ISenha" placeholder="Escreva aqui" REQUIRED/>
+      </p>
+      <p>
+        <br />
+        Turno: <br />
+        <br />
+        <label for="IManhã">Manhã:</label>
+        <input type="radio" name="Turno" id="IManhã" />
+        <label for="ITarde">Tarde:</label>
+        <input type="radio" name="Turno" id="ITarde" />
+        <label for="INoite">Noite:</label>
+        <input type="radio" name="Turno" id="INoite" />
+      </p>
+      <p>
+        <br />
+        Interesses:
+        <input type="checkbox" name="Programação" id="IProgramação" />
+        <label for="IProgramação">Programação</label>
+        <input type="checkbox" name="Design" id="IDesign" />
+        <label for="IDesign">Design</label>
+        <input type="checkbox" name="Games" id="IGames" />
+        <label for="IGames">Games</label>
+        <input type="checkbox" name="Redes" id="IRedes" />
+        <label for="IRedes">Redes</label>
+      </p>
+      <p>
+        <br />
+        <br />
+        Cidade:
+
+        <select name="" id="Lista_Suspensa">
+          <option value="">Selecione...</option>
+          <option value="">São Paulo</option>
+          <option value="">Rio de Janeiro</option>
+          <option value="">Belo Horizonte</option>
+        </select>
+      </p>
+      <br />
+
+      <p>
+        Mensagem: <br>
+
+        <label for=""></label>
+        <textarea name="30" id="Imensagem"></textarea>
+      </p>
+
+      <input type="submit" value="Enviar"/>
+      <input type="reset" value="Limpar"/>
+    </form>
+  </body>
+</html>
