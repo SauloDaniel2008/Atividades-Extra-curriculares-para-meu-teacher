@@ -1,0 +1,3 @@
+EXERCICIOS: TODOS FEITO COM AMOR E CARINHO GUI. 
+
+=D (carinha feliz)
