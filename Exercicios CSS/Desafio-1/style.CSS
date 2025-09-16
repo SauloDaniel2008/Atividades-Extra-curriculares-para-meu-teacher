@@ -1,0 +1,41 @@
+.body{
+
+    background-color: grey
+}
+
+.p{
+    color: red;
+}
+
+
+.jogo1{
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.jogo2{
+    text-align: center;
+    background-color: aliceblue;
+}
+.jogo3{
+    text-align: center;
+    background-color: aliceblue;
+}
+.jogo4{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.article {
+    display: inline-block;
+}
+
+.Rodapé {
+    text-align: center;
+}
+
+
+
+
+
